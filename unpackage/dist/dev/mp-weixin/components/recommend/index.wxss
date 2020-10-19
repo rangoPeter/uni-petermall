@@ -1,0 +1,55 @@
+.recommendContainer .banner .swiper-item {
+  height: 350rpx;
+}
+.recommendContainer .banner .swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+.recommendContainer .policyList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.recommendContainer .policyList .policy-item image {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+.recommendContainer .policyList .policy-item text {
+  font-size: 24rpx;
+  vertical-align: middle;
+}
+.recommendContainer .categoryList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 10rpx;
+}
+.recommendContainer .categoryList .category-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 20%;
+}
+.recommendContainer .categoryList .category-item image {
+  width: 110rpx;
+  height: 110rpx;
+}
+.recommendContainer .categoryList .category-item text {
+  font-size: 24rpx;
+}
+
